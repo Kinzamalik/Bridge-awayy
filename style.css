@@ -8,7 +8,31 @@ body {
 * {
   transition: all 0.3s ease-in-out;
 }
-
+#footer {
+        position:fixed;
+        bottom:0;
+        left:0;
+        right:0;
+        width:100%;
+        height:100px;
+    }
+    
+    #footerContainer {
+        position:relative;
+        width:100%;
+        height:100px;
+    }
+    
+    #imginthefooter {       
+        background: url('./jpeg/5.jpg') no-repeat;
+        width:100px;
+        z-index: 100;
+        height:300px;
+        top: -108px;  /* Position element */
+        right: 150px; /* Position element */ 
+        position: absolute;
+        
+    }?????????
 .container {
   clear: both;
   overflow: auto;
